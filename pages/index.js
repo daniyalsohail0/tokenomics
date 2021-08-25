@@ -13,14 +13,14 @@ import Screen6 from "../components/Screen6";
 import Screen7 from "../components/Screen7";
 import Screen9 from "../components/Screen9";
 
-// import backgroundVideo from '../public/ab.mp4'
-// import WOW from "wow.js";
-// WOW.wow.init();
+import backgroundVideo from '../public/ab.mp4'
+import WOW from "wow.js";
+WOW.wow.init();
 export default function Home() {
   return (
     <div>
       <Head>
-        {/* <script
+         <script
           src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"
           integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg=="
           crossorigin="anonymous"
@@ -29,12 +29,12 @@ export default function Home() {
 
         <script>
           $(document).ready(function ()
-          {
-            // console.log("testing")
+    
+            console.log("testing")
             new WOW().init()
-          }
+          
           );
-        </script> */}
+        </script> 
 
         <link
           rel="preload"
@@ -44,41 +44,41 @@ export default function Home() {
         />
       </Head>
 
-      {/* <Header /> */}
-      {/* screen 2 */}
-      {/* <Coin_s2 /> */}
-      {/* Screen 3 */}
-      {/* <Screen3/>     */}
+       <Header /> 
+       screen 2 
+       <Coin_s2 /> 
+       Screen 3 
+       <Screen3/>     
 
-      {/* Screen 4 */}
-      {/* <Screen4 /> */}
-      {/* Screen5 */}
-      {/* <Screen5 /> */}
+       Screen 4 
+       <Screen4 /> 
+       Screen5 
+       <Screen5 /> 
 
-      {/* Screen6 */}
-      {/* <Screen6 /> */}
+      Screen6 
+       <Screen6 /> 
 
-      {/* Screen 7 */}
-      {/* <Screen7 /> */}
+       Screen 7 
+       <Screen7 />
 
-      {/* Screen8 */}
-      {/* <Screen8 /> */}
+       Screen8
+       <Screen8 />
 
-      {/* Screen9 */}
-      {/* <Screen9 /> */}
+       Screen9
+       <Screen9 />
 
-      {/* Screen 10 */}
+       Screen 10
       <Screen10 />
 
-      {/* Screen 11 */}
+       Screen 11
 
       <Screen11 />
 
-      {/* Screen 12 */}
+       Screen 1
       <Screen12 />
-      {/* Screen 13 */}
+       Screen 13
 
-      {/* <Screen13 /> */}
+       <Screen13 />
     </div>
   );
 }
